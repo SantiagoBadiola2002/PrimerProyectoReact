@@ -1,0 +1,18 @@
+.saludo-container {
+    background-color: #282c34;
+    color: #61dafb;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  .saludo-titulo {
+    font-weight: bold;
+  }
+  
+  .saludo-parrafo {
+    color: #333;
+  }
+  

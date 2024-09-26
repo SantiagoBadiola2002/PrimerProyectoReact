@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Línea de separación */
+  background-color: #282c34; /* Asegúrate de que el fondo sea el mismo que el resto de la página */
+}
+
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-link {
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .nav-link a {
+    color: white;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+
+  /* Evita que los enlaces previamente visitados cambien de color */
+.nav-link a:visited {
+  color: white; /* Mantén el mismo color que los enlaces no visitados */
+}
+
+.nav-link a:hover {
+  color:rgb(255, 255, 255); /* Color cuando pasas el ratón sobre el enlace */
+}
+
+.logo-image {
+  width: 50px; /* Ajusta el tamaño del logo */
+  height: auto;
+}
